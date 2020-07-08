@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HttpRequests</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const Url ='http://localhost:8080/api/product/read';
+    
+
+    const optParams={
+        headers: new Headers({
+            'Content-Type':'application/json',
+        }),
+        // body:JSON.stringify({product_id:252}),
+        // method:"DELETE"
+        method:"GET"
+    };
+    fetch(Url,optParams)
+    .then(data=>{return data.json()})
+    .then(res=>{console.log(res.content)})
+    .catch(error => console.log(error));
+    </script>
+</html>

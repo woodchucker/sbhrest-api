@@ -1,0 +1,421 @@
+public class attendance
+{
+	private int _attendance_id;
+	public int getattendance_id()
+	{
+		return this._attendance_id;
+	}
+	public void setattendance_id(int value)
+	{
+		this._attendance_id = value;
+	}
+
+	private int _customer_id;
+	public int getcustomer_id()
+	{
+		return this._customer_id;
+	}
+	public void setcustomer_id(int value)
+	{
+		this._customer_id = value;
+	}
+
+	private java.sql.Timestamp _entry_time_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	public java.sql.Timestamp getentry_time_timestamp_0_without_time_zone_DEFAULT_NULL::()
+	{
+		return this._entry_time_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	}
+	public void setentry_time_timestamp_0_without_time_zone_DEFAULT_NULL::(java.sql.Timestamp value)
+	{
+		this._entry_time_timestamp_0_without_time_zone_DEFAULT_NULL:: = value;
+	}
+
+
+
+	private int _customer_id;
+	public int getcustomer_id()
+	{
+		return this._customer_id;
+	}
+	public void setcustomer_id(int value)
+	{
+		this._customer_id = value;
+	}
+
+	private int _employee_id;
+	public int getemployee_id()
+	{
+		return this._employee_id;
+	}
+	public void setemployee_id(int value)
+	{
+		this._employee_id = value;
+	}
+
+	private java.sql.Date _request_date;
+	public java.sql.Date getrequest_date()
+	{
+		return this._request_date;
+	}
+	public void setrequest_date(java.sql.Date value)
+	{
+		this._request_date = value;
+	}
+
+	private String _name;
+	public String getname()
+	{
+		return this._name;
+	}
+	public void setname(String value)
+	{
+		this._name = value;
+	}
+
+	private String _description;
+	public String getdescription()
+	{
+		return this._description;
+	}
+	public void setdescription(String value)
+	{
+		this._description = value;
+	}
+
+	private java.sql.Date _data;
+	public java.sql.Date getdata()
+	{
+		return this._data;
+	}
+	public void setdata(java.sql.Date value)
+	{
+		this._data = value;
+	}
+
+	private java.math.BigDecimal _amount;
+	public java.math.BigDecimal getamount()
+	{
+		return this._amount;
+	}
+	public void setamount(java.math.BigDecimal value)
+	{
+		this._amount = value;
+	}
+
+	private int _request_id;
+	public int getrequest_id()
+	{
+		return this._request_id;
+	}
+	public void setrequest_id(int value)
+	{
+		this._request_id = value;
+	}
+
+	private String _first_name;
+	public String getfirst_name()
+	{
+		return this._first_name;
+	}
+	public void setfirst_name(String value)
+	{
+		this._first_name = value;
+	}
+
+	private String _last_name;
+	public String getlast_name()
+	{
+		return this._last_name;
+	}
+	public void setlast_name(String value)
+	{
+		this._last_name = value;
+	}
+
+	private String _email;
+	public String getemail()
+	{
+		return this._email;
+	}
+	public void setemail(String value)
+	{
+		this._email = value;
+	}
+
+	private String _password;
+	public String getpassword()
+	{
+		return this._password;
+	}
+	public void setpassword(String value)
+	{
+		this._password = value;
+	}
+
+	private java.sql.Date _birth_date;
+	public java.sql.Date getbirth_date()
+	{
+		return this._birth_date;
+	}
+	public void setbirth_date(java.sql.Date value)
+	{
+		this._birth_date = value;
+	}
+
+	private String _birth_city;
+	public String getbirth_city()
+	{
+		return this._birth_city;
+	}
+	public void setbirth_city(String value)
+	{
+		this._birth_city = value;
+	}
+
+	private String _home_city;
+	public String gethome_city()
+	{
+		return this._home_city;
+	}
+	public void sethome_city(String value)
+	{
+		this._home_city = value;
+	}
+
+	private String _home_addr;
+	public String gethome_addr()
+	{
+		return this._home_addr;
+	}
+	public void sethome_addr(String value)
+	{
+		this._home_addr = value;
+	}
+
+	private String _fiscal_code;
+	public String getfiscal_code()
+	{
+		return this._fiscal_code;
+	}
+	public void setfiscal_code(String value)
+	{
+		this._fiscal_code = value;
+	}
+
+	private String _phone;
+	public String getphone()
+	{
+		return this._phone;
+	}
+	public void setphone(String value)
+	{
+		this._phone = value;
+	}
+
+	private String _photo;
+	public String getphoto()
+	{
+		return this._photo;
+	}
+	public void setphoto(String value)
+	{
+		this._photo = value;
+	}
+
+	private java.sql.Timestamp _created_at_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	public java.sql.Timestamp getcreated_at_timestamp_0_without_time_zone_DEFAULT_NULL::()
+	{
+		return this._created_at_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	}
+	public void setcreated_at_timestamp_0_without_time_zone_DEFAULT_NULL::(java.sql.Timestamp value)
+	{
+		this._created_at_timestamp_0_without_time_zone_DEFAULT_NULL:: = value;
+	}
+
+	private java.sql.Timestamp _updated_at_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	public java.sql.Timestamp getupdated_at_timestamp_0_without_time_zone_DEFAULT_NULL::()
+	{
+		return this._updated_at_timestamp_0_without_time_zone_DEFAULT_NULL::;
+	}
+	public void setupdated_at_timestamp_0_without_time_zone_DEFAULT_NULL::(java.sql.Timestamp value)
+	{
+		this._updated_at_timestamp_0_without_time_zone_DEFAULT_NULL:: = value;
+	}
+
+	private int _user_id;
+	public int getuser_id()
+	{
+		return this._user_id;
+	}
+	public void setuser_id(int value)
+	{
+		this._user_id = value;
+	}
+
+	private int _role_id;
+	public int getrole_id()
+	{
+		return this._role_id;
+	}
+	public void setrole_id(int value)
+	{
+		this._role_id = value;
+	}
+
+	private long _'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0;
+	public long get'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0()
+	{
+		return this._'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0;
+	}
+	public void set'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0(long value)
+	{
+		this._'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0 = value;
+	}
+
+	private long _'2020-06-23'_;_--_--_TOC_entry_3926_class_0;
+	public long get'2020-06-23'_;_--_--_TOC_entry_3926_class_0()
+	{
+		return this._'2020-06-23'_;_--_--_TOC_entry_3926_class_0;
+	}
+	public void set'2020-06-23'_;_--_--_TOC_entry_3926_class_0(long value)
+	{
+		this._'2020-06-23'_;_--_--_TOC_entry_3926_class_0 = value;
+	}
+
+	private long _0_;_--_--_TOC_entry_3927_class_0;
+	public long get0_;_--_--_TOC_entry_3927_class_0()
+	{
+		return this._0_;_--_--_TOC_entry_3927_class_0;
+	}
+	public void set0_;_--_--_TOC_entry_3927_class_0(long value)
+	{
+		this._0_;_--_--_TOC_entry_3927_class_0 = value;
+	}
+
+	private long _2_;_--_--_TOC_entry_3928_class_0;
+	public long get2_;_--_--_TOC_entry_3928_class_0()
+	{
+		return this._2_;_--_--_TOC_entry_3928_class_0;
+	}
+	public void set2_;_--_--_TOC_entry_3928_class_0(long value)
+	{
+		this._2_;_--_--_TOC_entry_3928_class_0 = value;
+	}
+
+	private long _'A_Admin'_;_--_--_TOC_entry_3930_class_0;
+	public long get'A_Admin'_;_--_--_TOC_entry_3930_class_0()
+	{
+		return this._'A_Admin'_;_--_--_TOC_entry_3930_class_0;
+	}
+	public void set'A_Admin'_;_--_--_TOC_entry_3930_class_0(long value)
+	{
+		this._'A_Admin'_;_--_--_TOC_entry_3930_class_0 = value;
+	}
+
+	private long _true_;_--_--_TOC_entry_3933_class_0;
+	public long gettrue_;_--_--_TOC_entry_3933_class_0()
+	{
+		return this._true_;_--_--_TOC_entry_3933_class_0;
+	}
+	public void settrue_;_--_--_TOC_entry_3933_class_0(long value)
+	{
+		this._true_;_--_--_TOC_entry_3933_class_0 = value;
+	}
+
+	private long _4_;_--_--_TOC_entry_3942_class_0;
+	public long get4_;_--_--_TOC_entry_3942_class_0()
+	{
+		return this._4_;_--_--_TOC_entry_3942_class_0;
+	}
+	public void set4_;_--_--_TOC_entry_3942_class_0(long value)
+	{
+		this._4_;_--_--_TOC_entry_3942_class_0 = value;
+	}
+
+	private long _false_;_--_--_TOC_entry_3944_class_0;
+	public long getfalse_;_--_--_TOC_entry_3944_class_0()
+	{
+		return this._false_;_--_--_TOC_entry_3944_class_0;
+	}
+	public void setfalse_;_--_--_TOC_entry_3944_class_0(long value)
+	{
+		this._false_;_--_--_TOC_entry_3944_class_0 = value;
+	}
+
+	private long _false_;_--_--_TOC_entry_3945_class_0;
+	public long getfalse_;_--_--_TOC_entry_3945_class_0()
+	{
+		return this._false_;_--_--_TOC_entry_3945_class_0;
+	}
+	public void setfalse_;_--_--_TOC_entry_3945_class_0(long value)
+	{
+		this._false_;_--_--_TOC_entry_3945_class_0 = value;
+	}
+
+	private long _false_;_--_--_TOC_entry_3946_class_0;
+	public long getfalse_;_--_--_TOC_entry_3946_class_0()
+	{
+		return this._false_;_--_--_TOC_entry_3946_class_0;
+	}
+	public void setfalse_;_--_--_TOC_entry_3946_class_0(long value)
+	{
+		this._false_;_--_--_TOC_entry_3946_class_0 = value;
+	}
+
+	private long _false_;_--_--_TOC_entry_3947_class_0;
+	public long getfalse_;_--_--_TOC_entry_3947_class_0()
+	{
+		return this._false_;_--_--_TOC_entry_3947_class_0;
+	}
+	public void setfalse_;_--_--_TOC_entry_3947_class_0(long value)
+	{
+		this._false_;_--_--_TOC_entry_3947_class_0 = value;
+	}
+
+
+	public attendance(int attendance_id_,int customer_id_,java.sql.Timestamp entry_time_timestamp_0_without_time_zone_DEFAULT_NULL::_,String product_name_,String description_,java.math.BigDecimal price_,int duration_days_,java.sql.Date locked_at_,int customer_id_,int employee_id_,java.sql.Date request_date_,String name_,String description_,java.sql.Date data_,java.math.BigDecimal amount_,int request_id_,String first_name_,String last_name_,String email_,String password_,java.sql.Date birth_date_,String birth_city_,String home_city_,String home_addr_,String fiscal_code_,String phone_,String photo_,java.sql.Timestamp created_at_timestamp_0_without_time_zone_DEFAULT_NULL::_,java.sql.Timestamp updated_at_timestamp_0_without_time_zone_DEFAULT_NULL::_,int user_id_,int role_id_,long '2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0_,long '2020-06-23'_;_--_--_TOC_entry_3926_class_0_,long 0_;_--_--_TOC_entry_3927_class_0_,long 2_;_--_--_TOC_entry_3928_class_0_,long 'A_Admin'_;_--_--_TOC_entry_3930_class_0_,long true_;_--_--_TOC_entry_3933_class_0_,long 4_;_--_--_TOC_entry_3942_class_0_,long false_;_--_--_TOC_entry_3944_class_0_,long false_;_--_--_TOC_entry_3945_class_0_,long false_;_--_--_TOC_entry_3946_class_0_,long false_;_--_--_TOC_entry_3947_class_0_)
+	{
+		this.attendance_id = attendance_id_;
+		this.customer_id = customer_id_;
+		this.entry_time_timestamp_0_without_time_zone_DEFAULT_NULL:: = entry_time_timestamp_0_without_time_zone_DEFAULT_NULL::_;
+		this.product_name = product_name_;
+		this.description = description_;
+		this.price = price_;
+		this.duration_days = duration_days_;
+		this.locked_at = locked_at_;
+		this.customer_id = customer_id_;
+		this.employee_id = employee_id_;
+		this.request_date = request_date_;
+		this.name = name_;
+		this.description = description_;
+		this.data = data_;
+		this.amount = amount_;
+		this.request_id = request_id_;
+		this.first_name = first_name_;
+		this.last_name = last_name_;
+		this.email = email_;
+		this.password = password_;
+		this.birth_date = birth_date_;
+		this.birth_city = birth_city_;
+		this.home_city = home_city_;
+		this.home_addr = home_addr_;
+		this.fiscal_code = fiscal_code_;
+		this.phone = phone_;
+		this.photo = photo_;
+		this.created_at_timestamp_0_without_time_zone_DEFAULT_NULL:: = created_at_timestamp_0_without_time_zone_DEFAULT_NULL::_;
+		this.updated_at_timestamp_0_without_time_zone_DEFAULT_NULL:: = updated_at_timestamp_0_without_time_zone_DEFAULT_NULL::_;
+		this.user_id = user_id_;
+		this.role_id = role_id_;
+		this.'2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0 = '2020-06-13_08:18:11'_;_--_--_TOC_entry_3924_class_0_;
+		this.'2020-06-23'_;_--_--_TOC_entry_3926_class_0 = '2020-06-23'_;_--_--_TOC_entry_3926_class_0_;
+		this.0_;_--_--_TOC_entry_3927_class_0 = 0_;_--_--_TOC_entry_3927_class_0_;
+		this.2_;_--_--_TOC_entry_3928_class_0 = 2_;_--_--_TOC_entry_3928_class_0_;
+		this.'A_Admin'_;_--_--_TOC_entry_3930_class_0 = 'A_Admin'_;_--_--_TOC_entry_3930_class_0_;
+		this.true_;_--_--_TOC_entry_3933_class_0 = true_;_--_--_TOC_entry_3933_class_0_;
+		this.4_;_--_--_TOC_entry_3942_class_0 = 4_;_--_--_TOC_entry_3942_class_0_;
+		this.false_;_--_--_TOC_entry_3944_class_0 = false_;_--_--_TOC_entry_3944_class_0_;
+		this.false_;_--_--_TOC_entry_3945_class_0 = false_;_--_--_TOC_entry_3945_class_0_;
+		this.false_;_--_--_TOC_entry_3946_class_0 = false_;_--_--_TOC_entry_3946_class_0_;
+		this.false_;_--_--_TOC_entry_3947_class_0 = false_;_--_--_TOC_entry_3947_class_0_;
+	}
+}
