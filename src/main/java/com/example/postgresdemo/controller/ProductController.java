@@ -9,6 +9,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
@@ -20,8 +21,11 @@ public class ProductController {
     private ProductRepository productRepository;
 
     @GetMapping("/api/product/read")
-    public Page<Product> getProducts(Pageable pageable) {
-        return productRepository.findAll(pageable);
+ //   public Page<Product> getProducts(Pageable pageable) {
+ //       return productRepository.findAll(pageable);
+ //   }
+    public List<Product> getProducts() {
+       return productRepository.findAll();
     }
     @GetMapping("/api/product/read/{product_id}")
     public Optional<Product> getProductById(@PathVariable Long product_id) {
