@@ -10,7 +10,7 @@ public class Product extends AuditModel {
     private Long product_id;
     @Id
     @Column(name="product_id", nullable = false)
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="product_seq")
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public Long getproduct_id() {
         return this.product_id;
     }
