@@ -24,10 +24,12 @@ public class ProductController {
  //   public Page<Product> getProducts(Pageable pageable) {
  //       return productRepository.findAll(pageable);
  //   }
+    @ResponseBody
     public List<Product> getProducts() {
        return productRepository.findAll();
     }
     @GetMapping("/api/product/read/{product_id}")
+    @ResponseBody
     public Optional<Product> getProductById(@PathVariable Long product_id) {
         return productRepository.findById(product_id);
     }
