@@ -60,6 +60,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>com.example.postgresdemo.PostgresDemoApplication</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
 				<executions>
 				  <execution>
 					<!-- Spring Boot Actuator displays build-related information
