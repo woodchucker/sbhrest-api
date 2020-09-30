@@ -72,7 +72,7 @@
 					<!-- Spring Boot Actuator displays build-related information
 					  if a META-INF/build-info.properties file is present -->
 					<goals>
-					  <goal>run</goal>
+					  <goal>repackage</goal>
 					</goals>
 					<configuration>
 					  <additionalProperties>
